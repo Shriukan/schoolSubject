@@ -122,4 +122,9 @@ public class SchoolSubject {
 	{
 		return alMarks.toArray();
 	}
+	
+	public int getSize()
+        {
+                return alMarks.size();
+        }
 }
